@@ -1,0 +1,23 @@
+﻿using tyuiu.cources.programming.interfaces.Sprint4;
+
+namespace Tyuiu.DunaizevAO.Sprint4.Task5.V15.Lib
+{
+    public class DataService : ISprint4Task5V15
+    {
+        public int Calculate(int[,] matrix)
+        {
+            int res = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    if (matrix[i, j] > 0)
+                    {
+                        res += matrix[i, j];
+                    }
+                }
+            }
+            return res;
+        }
+    }
+}
