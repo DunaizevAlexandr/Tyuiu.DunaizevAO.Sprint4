@@ -9,7 +9,7 @@ namespace Tyuiu.DunaizevAO.Sprint4.Task0.V8.Lib
             int res = 1;
             for (int i = 0; i < array.Length; i++)
             {
-                if (i % 2 == 1)
+                if (array[i] % 2 == 0)
                 {
                     res *= array[i];
                 }
