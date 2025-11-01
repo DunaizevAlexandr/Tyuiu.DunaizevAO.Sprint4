@@ -11,7 +11,7 @@ namespace Tyuiu.DunaizevAO.Sprint4.Task1.V14.Lib
             {
                 if (array[i] % 2 == 1)
                 {
-                    res *= array[i];
+                    res += array[i];
                 }
             }
             return res;
