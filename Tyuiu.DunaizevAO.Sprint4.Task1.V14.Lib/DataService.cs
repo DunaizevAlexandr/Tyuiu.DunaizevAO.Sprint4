@@ -7,7 +7,7 @@ namespace Tyuiu.DunaizevAO.Sprint4.Task1.V14.Lib
         public int Calculate(int[] array)
         {
             int res = 1;
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < 12; i++)
             {
                 if (array[i] % 2 == 1)
                 {
