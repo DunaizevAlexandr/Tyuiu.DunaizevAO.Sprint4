@@ -13,8 +13,8 @@ namespace Tyuiu.DunaizevAO.Sprint4.Task7.V4.Lib
             {
                 for (int j = 0; j < m; j++)
                 {
-                    matrix[i, j] = int.Parse(value[i * 3 + j].ToString());
-                    if (int.Parse(value [i * 3 + j].ToString()) % 2 == 1)
+                    matrix[i, j] = int.Parse(value[i * 4 + j].ToString());
+                    if (matrix[i,j] % 2 == 1)
                     {
                         res += matrix[i, j];
                     }
